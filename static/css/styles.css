@@ -1,0 +1,18 @@
+/*
+Selector css de etiqueta
+Selectores de id
+  Un id no se repite nunca
+Selectores de clases
+  Sí se pueden repetir
+  Aquí se representa por un punto 
+  .nombreClase
+Selectores de hijo
+  Ej: todos los lis hijos de ul
+  ul > li -> hijos directos (subhijos no)
+Selector adyacente 
+  section + section
+  dale estilos al ssection que tenga un section arriba 
+Selector de atributos 
+  [href] -> todos los que tengan este atributo
+  [href="yo"] -> same
+*/
