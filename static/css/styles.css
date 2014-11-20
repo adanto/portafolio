@@ -16,3 +16,33 @@ Selector de atributos
   [href] -> todos los que tengan este atributo
   [href="yo"] -> same
 */
+.u-title{
+  color: red;
+  text-decoration: underline;
+}
+
+.Header{
+  background: gray;
+  /*display: block;*/
+}
+.Header-imageContainer{
+
+}
+.Header-name{
+
+}
+.MainMenu{
+}
+
+.Profile{
+
+}
+
+.Work{
+
+}
+
+.Footer{
+
+}
+
