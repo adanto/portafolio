@@ -16,6 +16,54 @@ Selector de atributos
   [href] -> todos los que tengan este atributo
   [href="yo"] -> same
 */
+.Footer{
+  background-image: url('../images/footer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.Footer-button{
+  background: orange;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  padding: .5em 1em;
+}
+
+.Footer-form{
+  text-align: center;
+  display: inline-block;
+}
+
+.Footer-left{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 32em;
+}
+
+
+.Footer-input,
+.Footer-textarea{
+  background: white;
+  border: none;
+  display: block;
+  border-radius: 2em;
+  margin: 0 auto 1em;
+  padding: .5em;
+}
+
+.Footer-textarea{
+  resize: none;
+}
+
+.Footer-title{
+  color: white;
+}
+
 .Header{
   background.background-repeat: no-repeat;
   background-image: url('../images/2c41c6535e5f74a583f06c215d81aeec.jpg');
@@ -76,4 +124,48 @@ Selector de atributos
 .MainMenu-list{
   margin: 0;
   padding: 0;
+}
+
+/*Comentario chachi*/
+
+.Profile{
+  text-align: center;
+}
+
+.Profile-link{
+  background-color: orange;
+  border-radius: 2em;
+  color:white;
+  margin-right: .5em;
+  padding: .5em 1em;
+  text-decoration: none;
+}
+
+.u-title{
+  border-bottom: 2px dashed #00CCFF;
+  color: #00CCFF;
+  font-size: 1.5em;
+  font-weight: normal;
+  padding-bottom: .5em;
+  text-align: center;
+}
+.Work{
+  margin-top: 2em;
+  text-align: center;
+}
+
+.Work-description{
+  color: #515151;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.Work-imageContainer{
+  margin: 0;
+}
+
+.Work-item{
+  display: inline-block;
+  margin-right: 1.8em;
+  margin-bottom: 1.8em;
 }
