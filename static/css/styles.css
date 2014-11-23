@@ -16,33 +16,64 @@ Selector de atributos
   [href] -> todos los que tengan este atributo
   [href="yo"] -> same
 */
-.u-title{
-  color: red;
-  text-decoration: underline;
-}
-
 .Header{
-  background: gray;
-  /*display: block;*/
+  background.background-repeat: no-repeat;
+  background-image: url('../images/2c41c6535e5f74a583f06c215d81aeec.jpg');
+  background-size: 100%;
+  background-position: center;
+  margin-top: 3.75em;
+  text-align: center;
+  padding: 1.2em 0;
 }
+
+.Header-image{
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
 .Header-imageContainer{
-
+  margin: 0;
 }
+
+.Header-name,
+.Header-link{
+  color: white;
+}
+
+.Header-link{
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .Header-name{
-
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0;
 }
+
 .MainMenu{
+  background: #1E1E1E;
+  text-align: center;
+  height: 3.75em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
-.Profile{
-
+.MainMenu-item{
+  display: inline-block;
 }
 
-.Work{
-
+.MainMenu-link{
+  color: #00DBFF;
+  text-decoration: none;
+  line-height: 3.75em;
+  margin-right: 1.5em;
 }
 
-.Footer{
-
+.MainMenu-list{
+  margin: 0;
+  padding: 0;
 }
-
